@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "CeraPro-Regular";
+    src: local("CeraPro-Regular"),
+         url("assets/CeraPro-Regular.woff2") format("woff2"),
+}
+
+@font-face {
+    font-family: "stolzl_regular";
+    src: local("stolzl_regular"),
+         url("assets/stolzl_regular.woff") format("woff"),
+}

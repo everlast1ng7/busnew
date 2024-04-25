@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мессенджеры</title>
+    <link rel="icon" type="image/svg" href="assets/busnew-fav.svg">
+    <meta property="og:image" content="assets/preview-img-msg.webp">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="content-wrapper header-content-wrapper">
+            <div onclick="window.location.href='index.html'" class="header_up_logo header_up_logo-mobile">
+                <img src="assets/logo.webp" alt="logo">
+            </div>
+            <div class="header_up">
+                <div class="header_up__info">
+                    <div onclick="window.location.href='index.html'" class="header_up_logo header_up_logo-desktop">
+                        <img src="assets/logo.webp" alt="logo">
+                    </div>
+                    <div class="header_up_contacts">
+                        <p class="txt-2">8 999 (618)-90-93</p>
+                        <p class="txt-2">bisnnew@gmail.com</p>
+                    </div>
+                    <div class="header_up_adress">
+                        <p class="txt-2">Санкт-Петербург, наб. канала</p>
+                        <p class="txt-2">Грибоедова, д.5, оф. 316</p>
+                    </div>
+                </div>
+                <div class="header_up_button">
+                    <button data-button="default_call" class="btn btn-popup">ЗАКАЗАТЬ ЗВОНОК</button>
+                </div>
+            </div>
+            <div class="header_border"></div>
+            <div class="header_down">
+                <p onclick="window.location.href='context.html'" class="txt-2">КОНТЕКСТНАЯ РЕКЛАМА</p>
+                <p onclick="window.location.href='sites.html'" class="txt-2">САЙТЫ</p>
+                <p onclick="window.location.href='smm.html'" class="txt-2">SMM</p>
+                <p onclick="window.location.href='messenges.html'" class="txt-2">МЕССЕНДЖЕРЫ</p>
+                <p onclick="window.location.href='learning.html'" class="txt-2">ОБУЧЕНИЕ</p>
+                <p onclick="window.location.href='about.html'" class="txt-2">О КОМПАНИИ</p>
+                <p onclick="window.location.href='reviews.html'" class="txt-2">ОТЗЫВЫ</p>
+                <p onclick="window.location.href='contacts.html'" class="txt-2">КОНТАКТЫ</p>
+            </div>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="burger_navigation">
+                <div class="word-banner">Услуги</div>
+                <div class="burger_navigation-list">
+                    <div class="burger_navigation-list-col">
+                        <p onclick="window.location.href='context.html'" class="txt-1">Контекстная реклама</p>
+                        <p onclick="window.location.href='sites.html'" class="txt-1">Создание сайтов</p>
+                        <p onclick="window.location.href='smm.html'" class="txt-1">Smm</p>
+                        <p onclick="window.location.href='messenges.html'" class="txt-1">мессенджеры</p>
+                        <p onclick="window.location.href='learning.html'" class="txt-1">обучение</p>
+                    </div>
+                    <div class="burger_navigation-list-col">
+                        <p onclick="window.location.href='about.html'" class="txt-1">о компании</p>
+                        <p onclick="window.location.href='contacts.html'" class="txt-1">контакты</p>
+                        <p onclick="window.location.href='reviews.html'" class="txt-1">отзывы</p>
+                        <div class="burger-messages">
+                            <img onclick="window.location.href='https://t.me/altai_box'" src="assets/mobile-burger-telegram.svg" alt="image">
+                            <img onclick="window.location.href='https://wa.me/+79996189093'" src="assets/mobile-burger-whatsapp.svg" alt="image">
+                        </div>
+                    </div>
+                </div>
+                <div class="border"></div>
+                <div class="burger_navigation-contacts">
+                    <div class="burger_navigation-contact">
+                        <p class="txt-2">8 999 (618)-90-93</p>
+                        <p class="txt-2">bisnnew@gmail.com</p>
+                    </div>
+                    <div class="burger_navigation-adress">
+                        <p class="txt-2">Санкт-Петербург, наб. канала<br>Грибоедова, д.5, оф. 316</p>
+                    </div>
+                </div>
+                <button data-button="default_call" class="burger_navigation-btn btn btn-popup">заказать звонок</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="main">
+        <div class="content-wrapper">
+            <div class="smm-main_banner">
+                <div class="smm-main_banner-row smm-main_banner-row-1">
+                    <div class="word-banner">telegram ads</div>
+                </div>
+                <div class="smm-main_banner-row smm-main_banner-row-3">
+                    <div class="word-banner">Автоворонки</div>
+                    <div class="word-banner">посевы</div>
+                </div>
+                <div class="smm-main_banner-row smm-main_banner-row-4">
+                    <div class="word-banner">контент</div>
+                    <div class="word-banner">боты</div>
+                </div>
+            </div>
+            <div class="main_info">
+                <div class="main_info__block">
+                    <div class="main_info__block-el main_info__block-el-1">
+                        <p class="txt-2">150+ ниш</p>
+                    </div>
+                    <div class="main_info__block-el main_info__block-el-2">
+                        <p class="txt-2">9 лет опыта</p>
+                    </div>
+                    <div class="main_info__block-el main_info__block-el-3">
+                        <p class="txt-2">РФ, СНГ, МИР</p>
+                    </div>
+                </div>
+                <div class="main_info__block main_info__block-desktop">
+                    <p class="txt-1"><span class="margin-left">Компания занимается</span> <br class="main_info_br"> <span class="bold-1">комплексным ведением интернет-маркетинга</span> <br class="main_info_br"> на аутсорсинге для предпринимателей <br class="main_info_br"> по всему миру.</p>
+                </div>
+                <div class="main_info__block main_info__block-mobile">
+                    <p class="txt-1"><span class="margin-left">Компания занимается</span> <span class="bold-1">комплексным <br class="main_info_br"> ведением интернет-маркетинга</span> <br class="main_info_br"> на аутсорсинге для предпринимателей <br class="main_info_br"> по всему миру.</p>
+                </div>
+            </div>
+            <form action="#" class="main_form">
+                <h1 class="main_form-h1 txt-2">Оставьте заявку и получите<br> <span class="blue">бесплатную консультацию</span></h1>
+                <div class="main_form-wrapper">
+                    <input type="text" class="main_form__input" placeholder="Ваше имя">
+                    <input type="phone" class="main_form__input input_form-phone" placeholder="Ваш телефон" data-inputmask="'mask': '9-999-999-9999'">
+                    <input type="hidden" id="hiddenField" value="free_consultation">
+                    <button data-button="free_consultation" class="btn-submit btn-mail">Отправить заявку</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="result_banner">
+        <div class="content-wrapper">
+            <div class="result_banner-row">
+                <div class="result_banner-row_img">
+                    <img src="assets/diagram.webp" alt="img">
+                </div>
+                <div class="word-banner result-word-banner-1">посмотрите</div>
+                <div class="word-banner result-word-banner-2">на результаты</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="result_table">
+        <div class="content-wrapper">
+            <div class="result_table__duo-block">
+                <div class="result_table__block result_table__block-msg">
+                    <div class="result_table__block-image">
+                        <img src="assets/result-table-logo.webp" alt="photo" class="result-table-logo">
+                        <img src="assets/result-table-logo-middle.webp" alt="photo" class="result-table-logo-middle">
+                        <img src="assets/result-table-logo-mini.webp" alt="photo" class="result-table-logo-mini">
+                    </div>
+                    <div class="result_table__block-info">
+                        <div class="result_table__block-info-up">
+                            <div class="info-up-title"><p class="txt-2">Узнай, какой ты юрист <br> Чат-бот квиз</p></div>
+                            <div class="word-banner">Цена за заявку: ~80 рублей</div>
+                        </div>
+                        <div class="border"></div>
+                        <div class="result_table__block-info-down result_table__block-info-down-msg">
+                            <div class="info-down-desc">
+                                <p class="txt-2"><span class="bold">Потраченный бюджет:</span> 450 000</p>
+                                <p class="txt-2"><span class="bold">Количество заявок:</span> 5500</p>
+                            </div>
+                            <div class="info-down-desc info-down-desc-msg">
+                                <p class="txt-2">10 вопросов по теме юриспруденции, ответы реализованы в формате кнопок. Пользователь проходит тест и получает оценку своих знаний. После прохождения пользователь получает рассылки, приходит на другие бесплатные мероприятия, прогревается и получает специальные скидки на продукты компании.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border"></div>
+                <div class="result_table__block result_table__block-msg">
+                    <div class="result_table__block-image">
+                        <img src="assets/result-table-logo-dir.webp" alt="photo" class="result-table-logo">
+                        <img src="assets/result-table-logo-middle-dir.webp" alt="photo" class="result-table-logo-middle">
+                        <img src="assets/result-table-logo-mini-dir.webp" alt="photo" class="result-table-logo-mini">
+                    </div>
+                    <div class="result_table__block-info">
+                        <div class="result_table__block-info-up">
+                            <div class="info-up-title"><p class="txt-2">знание маркетинга <br> Чат-бот Квиз </p></div>
+                            <div class="word-banner">Цена за заявку: ~60 рублей</div>
+                        </div>
+                        <div class="border"></div>
+                        <div class="result_table__block-info-down result_table__block-info-down-msg">
+                            <div class="info-down-desc">
+                                <p class="txt-2"><span class="bold">Потраченно:</span> 50000</p>
+                                <p class="txt-2"><span class="bold">Заявок:</span> 810</p>
+                            </div>
+                            <div class="info-down-desc info-down-desc-msg">
+                                <p class="txt-2">10 вопросов по теме юриспруденции, ответы реализованы в формате кнопок. Пользователь проходит тест и получает оценку своих знаний. После прохождения пользователь получает рассылки, приходит на другие бесплатные мероприятия, прогревается и получает специальные скидки на продукты компании.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="result_table__duo-block result_table__duo-block-none">
+                <div class="result_table__block result_table__block-msg">
+                    <div class="result_table__block-image">
+                        <img src="assets/result-table-logo-dir.webp" alt="photo" class="result-table-logo">
+                        <img src="assets/result-table-logo-middle-dir.webp" alt="photo" class="result-table-logo-middle">
+                        <img src="assets/result-table-logo-mini-dir.webp" alt="photo" class="result-table-logo-mini">
+                    </div>
+                    <div class="result_table__block-info">
+                        <div class="result_table__block-info-up">
+                            <div class="info-up-title"><p class="txt-2">Проект Директория <br> Чат-бот. автовебинар</p></div>
+                            <div class="word-banner">Цена за заявку: ~100 рублей</div>
+                        </div>
+                        <div class="border"></div>
+                        <div class="result_table__block-info-down result_table__block-info-down-msg">
+                            <div class="info-down-desc">
+                                <p class="txt-2"><span class="bold">Потрачено:</span> 40 000</p>
+                                <p class="txt-2"><span class="bold">Заявок:</span> 370</p>
+                            </div>
+                            <div class="info-down-desc info-down-desc-msg">
+                                <p class="txt-2">Приглашаем через таргет людей на вебинар, ссылка на прямой эфир приходила автоматически через чат-бот. Сразу после просмотра вебинара присылаем специальную посадочную страницу со скидкой на основной продукт. Далее пользователь получает пробные уроки, полезные материалы, рассылки, приходит на другие бесплатные мероприятия, дожимается.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border"></div>
+                <div class="result_table__block result_table__block-msg">
+                    <div class="result_table__block-image">
+                        <img src="assets/result-table-logo-neiro.webp" alt="photo" class="result-table-logo">
+                        <img src="assets/result-table-logo-middle-neiro.webp" alt="photo" class="result-table-logo-middle">
+                        <img src="assets/result-table-logo-mini-neiro.webp" alt="photo" class="result-table-logo-mini">
+                    </div>
+                    <div class="result_table__block-info">
+                        <div class="result_table__block-info-up">
+                            <div class="info-up-title"><p class="txt-2">Проект edenex <br> вебинар по нейросетям</p></div>
+                            <div class="word-banner">Цена за заявку: ~470 рублей</div>
+                        </div>
+                        <div class="border"></div>
+                        <div class="result_table__block-info-down result_table__block-info-down-msg">
+                            <div class="info-down-desc">
+                                <p class="txt-2"><span class="bold">Потрачено:</span> 450 000</p>
+                                <p class="txt-2"><span class="bold">Заявок:</span> 950</p>
+                            </div>
+                            <div class="info-down-desc info-down-desc-msg">
+                                <p class="txt-2">Настройкаи ведение рекламы в мессенджере курсов по нейросетям.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <button class="result_table-button btn">показать еще</button>
+        </div>
+    </section>
+
+    <section class="services_price">
+        <div class="content-wrapper">
+            <div class="services_price-title">
+                <div class="word-banner">стоимость</div>
+                <div class="word-banner">услуг</div>
+            </div>
+            <div class="services_price__keys">
+                <div class="services_price__key">
+                    <div class="services_price__key_info">
+                        <div class="services_price__key_info-title">
+                            <img src="assets/telegram.svg" alt="icon">
+                            <p class="txt-2">telegram ads</p>
+                        </div>
+                        <div class="services_price__key_info-desc">
+                            <div class="info-desc">
+                                <p class="txt-1">+ Расчет рентабельности рекламной кампании</p>
+                                <p class="txt-1">+ Создание рекламного кабинета</p>
+                                <p class="txt-1">+ Разработка маркетинговой стратегии</p>
+                                <p class="txt-1">+ Сбор семантического ядра</p>
+                            </div>
+                            <div class="info-desc">
+                                <p class="txt-1">+ Создание рекламных объявлений</p>
+                                <p class="txt-1">+ Подключение сервисов аналитики</p>
+                                <p class="txt-1">+ Ведение рекламной кампании</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services_price__key_buttons">
+                        <button class="btn">от 40.000 руб</и>
+                        <button data-button="telegram_ads" class="btn btn-popup">заказать</button>
+                    </div>
+                </div>
+
+                <div class="services_price__key">
+                    <div class="services_price__key_info services_price__key_info--blue">
+                        <div class="services_price__key_info-title">
+                            <img src="assets/star-icon.png" alt="icon" class="star-icon-desktop">
+                            <img src="assets/star-gold-icon.svg" alt="icon" class="star-icon-mob">
+                            <p class="txt-2">автоворонки</p>
+                        </div>
+                        <div class="services_price__key_info-desc">
+                            <div class="info-desc">
+                                <p class="txt-1">+ Расчет рентабельности рекламной кампании</p>
+                                <p class="txt-1">+ Создание рекламного кабинета</p>
+                                <p class="txt-1">+ Разработка маркетинговой стратегии</p>
+                                <p class="txt-1">+ Сбор семантического ядра</p>
+                            </div>
+                            <div class="info-desc">
+                                <p class="txt-1">+ Создание рекламных объявлений</p>
+                                <p class="txt-1">+ Подключение сервисов аналитики</p>
+                                <p class="txt-1">+ Ведение рекламной кампании</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services_price__key_buttons">
+                        <button class="btn">от 60.000 руб</button>
+                        <button data-button="funnels" class="btn btn-popup">заказать</button>
+                    </div>
+                </div>
+
+                <div class="services_price__key">
+                    <div class="services_price__key_info">
+                        <div class="services_price__key_info-title">
+                            <img src="assets/phone-icon.svg" alt="icon">
+                            <p class="txt-2">посевы</p>
+                        </div>
+                        <div class="services_price__key_info-desc">
+                            <div class="info-desc">
+                                <p class="txt-1">+ Расчет рентабельности рекламной кампании</p>
+                                <p class="txt-1">+ Создание рекламного кабинета</p>
+                                <p class="txt-1">+ Разработка маркетинговой стратегии</p>
+                                <p class="txt-1">+ Сбор семантического ядра</p>
+                            </div>
+                            <div class="info-desc">
+                                <p class="txt-1">+ Создание рекламных объявлений</p>
+                                <p class="txt-1">+ Подключение сервисов аналитики</p>
+                                <p class="txt-1">+ Ведение рекламной кампании</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services_price__key_buttons">
+                        <button class="btn">от 30.000 руб</button>
+                        <button data-button="posevi" class="btn btn-popup">заказать</button>
+                    </div>
+                </div>
+
+                <div class="services_price__key">
+                    <div class="services_price__key_info">
+                        <div class="services_price__key_info-title">
+                            <img src="assets/smile-icon.svg" alt="icon">
+                            <p class="txt-2">контент</p>
+                        </div>
+                        <div class="services_price__key_info-desc">
+                            <div class="info-desc">
+                                <p class="txt-1">+ Расчет рентабельности рекламной кампании</p>
+                                <p class="txt-1">+ Создание рекламного кабинета</p>
+                                <p class="txt-1">+ Разработка маркетинговой стратегии</p>
+                                <p class="txt-1">+ Сбор семантического ядра</p>
+                            </div>
+                            <div class="info-desc">
+                                <p class="txt-1">+ Создание рекламных объявлений</p>
+                                <p class="txt-1">+ Подключение сервисов аналитики</p>
+                                <p class="txt-1">+ Ведение рекламной кампании</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services_price__key_buttons">
+                        <button class="btn">от 20.000 руб</button>
+                        <button data-button="content" class="btn btn-popup">заказать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="marketing_banners">
+        <div class="content-wrapper">
+            <div class="marketing_banners__container">
+                <div class="word-banner">опыт сотрудников от 3х лет</div>
+                <div class="word-banner">обучаем маркетингу в лучших вузах страны</div>
+                <div class="word-banner">бесплатно проводим анализ рентабельности</div>
+                <div class="word-banner">работаем с 2013 года</div>
+            </div>
+        </div>
+    </section>
+
+    <form action="#" class="main_form context-main_form-2">
+        <div class="content-wrapper">
+            <h1 class="main_form-h1 txt-2"><span class="blue">БЕСПЛАТНО</span> ПРОИЗВЕДЕМ РАСЧЕТ РЕНТАБЕЛЬНОСТИ ПО ВАШЕЙ НИШЕ И ПОДГОТОВИМ ОТЧЕТ</h1>
+            <div class="main_form-wrapper">
+                <input type="text" class="main_form__input" placeholder="Ваше имя">
+                <input type="phone" class="main_form__input input_form-phone" placeholder="Ваш телефон" data-inputmask="'mask': '9-999-999-9999'">
+                <input type="hidden" id="hiddenField" value="rasschet_rentabelnosti">
+                <button data-button="rasschet_rentabelnosti" class="btn-submit btn-mail">Отправить заявку</button>
+            </div>
+        </div>
+    </form>
+
+    <section class="info">
+        <div class="content-wrapper">
+            <div class="word-banner word-question-mobile">Вопросы</div>
+            <div class="info__title_wrapper">
+                <div class="word-banner word-question-desktop">Вопросы</div>
+                <div class="word-banner">наших</div>
+                <div class="word-banner">клиентов</div>
+            </div>
+    
+            <div class="wrapper">
+                <div class="block">
+                    <div class="border"></div>
+                    <button class="accordion">
+                        <div class="name">
+                            <p class="txt-2">Какие преимущества рекламы в мессенджерах перед другими каналами?</p>
+                            <p class="xmark">+</p>
+                        </div>
+                    </button>
+                    <div class="panel">
+                        <p class="txt-2">Реклама в мессенджерах обеспечивает прямой контакт с аудиторией, высокий уровень вовлеченности и возможность персонализации рекламных сообщений.</p>
+                    </div>
+                    <div class="border"></div>
+            
+    
+                    <button class="accordion">
+                        <div class="name">
+                            <p class="txt-2">Что такое посевы в Telegram и как они могут помочь в продвижении?</p>
+                            <p class="xmark">+</p>
+                        </div>
+                    </button>
+                    <div class="panel">
+                        <p class="txt-2">Посевы в Telegram - это стратегия продвижения через создание и развитие активных чатов или каналов для целевой аудитории.</p>
+                    </div>
+                    <div class="border"></div>
+            
+    
+                    <button class="accordion">
+                        <div class="name">
+                            <p class="txt-2">Какие преимущества использования Telegram Ads?</p>
+                            <p class="xmark">+</p>
+                        </div>
+                    </button>
+                    <div class="panel">
+                        <p class="txt-2">Telegram Ads позволяет настроить таргетированную рекламу, увеличивает видимость бренда, и предоставляет возможность взаимодействия с клиентами через мессенджер.</p>
+                    </div>
+                    <div class="border"></div>
+    
+    
+                    <button class="accordion">
+                        <div class="name">
+                            <p class="txt-2">Какова стоимость рекламы в Telegram и как она рассчитывается?</p>
+                            <p class="xmark">+</p>
+                        </div>
+                    </button>
+                    <div class="panel">
+                        <p class="txt-2">Стоимость рекламы зависит от множества факторов, включая целевую аудиторию, формат рекламы, и выбранные параметры таргетинга. Мы предоставим детали в индивидуальном расчет</p>
+                    </div>
+                    <div class="border"></div>
+    
+    
+                    <button class="accordion">
+                        <div class="name">
+                            <p class="txt-2">Как вы обеспечиваете уникальный и привлекательный контент для рекламы в мессенджерах?</p>
+                            <p class="xmark">+</p>
+                        </div>
+                    </button>
+                    <div class="panel">
+                        <p class="txt-2">Наша команда разрабатывает креативный контент, учитывая особенности каждой платформы. Мы стремимся к уникальности и привлекательности, чтобы привлечь внимание аудитории.</p>
+                    </div>
+                    <div class="border"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts">
+        <div class="content-wrapper">
+            <div class="contacts_container">
+                <div class="word-banner word-banner-contacts">КОнтакты</div>
+                <div class="contacts_container-contact contacts_container-phone">
+                    <p class="txt-2">телефон</p>
+                    <div class="word-banner">8 999(618)-90-93</div>
+                </div>
+                <div class="contacts_container-contact contacts_container-email">
+                    <p class="txt-2">ПОЧТА</p>
+                    <div class="word-banner">bisnnew@gmail.com</div>
+                </div>
+                <div class="contacts_container-socials">
+                    <div onclick="window.location.href='https://wa.me/+79996189093'" class="social-banner">
+                        <img src="assets/whatsapp.svg" alt="icon">
+                        <p class="txt-2">whats app</p>
+                    </div>
+                    <div onclick="window.location.href='https://t.me/altai_box'" class="social-banner">
+                        <img src="assets/telegram.svg" alt="icon">
+                        <p class="txt-2">telegram</p>
+                    </div>
+                </div>
+                <p class="contacts_container-inn txt-2">ООО «БизнесНЬЮ» <br> ИНН 7017407816 КПП 780201001 ОГРН 1167031067686</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="map">
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A90adda16603ab1b1c4cb4763633ff98ee1ffe41c595c8a9a90f0abcc86a8035c&amp;width=100%25&amp;height=459&amp;lang=ru_RU&amp;scroll=true"></script>
+    </section>
+
+    <footer class="footer">
+        <div class="content-wrapper footer-content-wrapper">
+            <div class="footer_up">
+                <div class="footer_up__info">
+                    <div onclick="window.location.href='index.html'" class="footer_up_logo">
+                        <img src="assets/logo.webp" alt="logo">
+                    </div>
+                    <div class="footer_up_contacts">
+                        <p class="txt-2">8 999 (618)-90-93</p>
+                        <p class="txt-2">bisnnew@gmail.com</p>
+                    </div>
+                    <div class="footer_up_adress">
+                        <p class="txt-2">Санкт-Петербург, наб. канала</p>
+                        <p class="txt-2">Грибоедова, д.5, оф. 316</p>
+                    </div>
+                </div>
+                <div class="footer_up_button">
+                    <button data-button="default_call" class="btn btn-popup">ЗАКАЗАТЬ ЗВОНОК</button>
+                </div>
+            </div>
+            <div class="footer_border"></div>
+            <div class="footer_down">
+                <p onclick="window.location.href='context.html'" class="txt-2">КОНТЕКСТНАЯ РЕКЛАМА</p>
+                <p onclick="window.location.href='sites.html'" class="txt-2">САЙТЫ</p>
+                <p onclick="window.location.href='smm.html'" class="txt-2">SMM</p>
+                <p onclick="window.location.href='messenges.html'" class="txt-2">МЕССЕНДЖЕРЫ</p>
+                <p onclick="window.location.href='learning.html'" class="txt-2">ОБУЧЕНИЕ</p>
+                <p onclick="window.location.href='about.html'" class="txt-2">О КОМПАНИИ</p>
+                <p onclick="window.location.href='reviews.html'" class="txt-2">ОТЗЫВЫ</p>
+                <p onclick="window.location.href='contacts.html'" class="txt-2">КОНТАКТЫ</p>
+            </div>
+            <div class="footer_policy">
+                <p onclick="window.location.href='politika.html'" class="txt-2">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</p>
+            </div>
+        </div>
+        <div class="content-wrapper mobile-footer-wrapper">
+            <div class="mobile-footer">
+                <div onclick="window.location.href='index.html'" class="mobile-footer__logo">
+                    <img src="assets/logo.webp" alt="image">
+                </div>
+                <div class="mobile-footer__adress">
+                    <p class="txt-2">Санкт-Петербург, наб. канала<br>Грибоедова, д.5, оф. 316</p>
+                </div>
+                <div class="mobile-footer__contacts">
+                    <p class="txt-2">8 999 (618)-90-93</p>
+                    <p class="txt-2">bisnnew@gmail.com</p>
+                </div>
+                <div class="mobile-footer__list">
+                    <p onclick="window.location.href='context.html'" class="txt-2">КОНТЕКСТНАЯ РЕКЛАМА</p>
+                    <p onclick="window.location.href='sites.html'" class="txt-2">САЙТЫ</p>
+                    <p onclick="window.location.href='smm.html'" class="txt-2">SMM</p>
+                    <p onclick="window.location.href='messenges.html'" class="txt-2">МЕССЕНДЖЕРЫ</p>
+                    <p onclick="window.location.href='learning.html'" class="txt-2">ОБУЧЕНИЕ</p>
+                    <p onclick="window.location.href='about.html'" class="txt-2">О КОМПАНИИ</p>
+                    <p onclick="window.location.href='reviews.html'" class="txt-2">ОТЗЫВЫ</p>
+                    <p onclick="window.location.href='contacts.html'" class="txt-2">КОНТАКТЫ</p>
+                </div>
+                <div class="mobile-footer__button">
+                    <button data-button="default_call" class="btn btn-mail">Отправить заявку </button>
+                </div>
+                <div class="mobile-footer__policy">
+                    <p onclick="window.location.href='politika.html'" class="txt-2">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="popup-overlay">
+        <div class="popup">
+            <div class="popup-head">
+                <div class="popup-logo">
+                    <img src="assets/logo.webp" alt="logo">
+                </div>
+                <div class="popup-xmark">
+                    <img src="assets/xmark.svg" alt="img">
+                </div>
+            </div>
+            <div class="word-banner">оставьте заявку</div>
+            <form action="#" class="popup-form">
+                <input type="text" placeholder="Ваше имя" class="popup-input">
+                <input type="tel" placeholder="Ваш номер" class="popup-input input_form-phone" data-inputmask="'mask': '9-999-999-9999'">
+                <input type="hidden" id="hiddenField" value="test">
+                <button class="popup-btn btn btn-mail">Отправить заявку</button>
+            </form>
+            <p class="txt-2">Оставляя заявку вы соглашаетесь <br> <span onclick="window.location.href='politika.html'" class="link">с политикой конфиденциальности</span></p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/inputmask"></script>
+    <script type="module" src="messenges.js"></script>
+    <script type="module" src="utils.js"></script>
+</body>
+</html>
